@@ -1,0 +1,33 @@
+/* Navbar */
+
+.navbar {
+  background-color: #f1f3ff;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+.navbar-brand .LogoImg {
+  width: 100px;
+  height: 34px;
+}
+
+.nav-link {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar-brand .LogoImg {
+    margin-left: 124px;
+    margin-top: 15px;
+  }
+  .navbar-nav {
+    margin-right: 0px;
+  }
+}
+
+/* End of Navbar */
